@@ -1,0 +1,77 @@
+  /* class starts with . 
+    Develop pratice of ending lines with semicolon
+  */
+  /* 
+  Useful to see alignment of elements on your page
+  *{
+    border: thin red dashed;
+    
+  } */
+
+  body{
+    margin: 0; /* remove the built in margin in borders */
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: center; /** How to distribute things horizontal*/
+    height: 100vh;
+    align-items: center; /** How to distribute things vertical*/
+    background-color: #c5c6c7;
+    border: thick #45A29E solid;
+  }
+
+.container{
+  width:960px;
+}
+
+.row{
+  display: flex;
+  justify-content:space-between;
+}
+
+.row-center{
+  display: flex;
+  justify-content:center;
+}
+
+.mb{
+  margin-bottom: 10px;
+}
+
+.button{
+  background-color: #66fcf1;
+  color:#45a29e; 
+  border: 1px #1f2833 solid; 
+  border-radius: 5px; 
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  text-align:center;
+  padding: 0.25em;
+  
+}
+
+
+
+.card{
+  border:thick #45A29E dotted;
+  width:49%;
+}
+
+/* #computer-card{
+  border: thick red dotted;
+  width:49%;
+} */
+
+#outcome-card{
+  border: thin red solid;
+  background-color: pink;
+  width: 66%;
+}
+
+.one-third{
+  width: 32%;
+}
+
+.centered{
+  text-align: center;
+}

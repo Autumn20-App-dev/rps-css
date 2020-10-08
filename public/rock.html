@@ -5,41 +5,66 @@
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Space+Mono:ital@1&display=swap" rel="stylesheet"> 
+
+
 </head>
 
-<body>
-  <div>
-    <a href="/rock">
-      Play Rock
-    </a>
-  </div>
 
-  <div>
-    <a href="/paper">
-      Play Paper
-    </a>
-  </div>
+<body >
+  <div class= "container">
+    <div class ="row mb">
+      <div class = "one-third" >
+        <a href="/rock" class="button" > <!----- padding: top sides -->
+          Play Rock
+        </a>
+      </div>
 
-  <div>
-    <a href="/scissors">
-      Play Scissors
-    </a>
-  </div>
+      <div class = "one-third" >
+        <a href="/paper" class="button">
+          Play Paper
+        </a>
+      </div>
 
-  <h2>
-    We played rock!
-  </h2>
+      <div class = "one-third">
+        <a href="/scissors" class="button">
+          Play Scissors
+        </a>
+      </div>
 
-  <h2>
-    They played paper!
-  </h2>
+    </div>
+    
+    <div class ="row mb">
+        <div class="card">
+          <h2 class="centered">
+          We played rock!
+          </h2>
+        </div>
+        
+        <div class="card">
+          <h2 class="centered" >
+            They played paper!
+          </h2>
+        </div>
+    </div>
+    
+    <div class = "row-center mb">
+      <div id ="outcome-card">
+        <h2 class="centered" >
+          We lost!
+        </h2>
+      </div>
+    </div>
 
-  <h2>
-    We lost!
-  </h2>
+    <div class = "row-center mb ">
+        <a href="/" class="centered">
+          Rules
+        </a>
+    </div>
+    
+    </div>
+  
 
-  <a href="/">
-    Rules
-  </a>
 </body>
 </html>
